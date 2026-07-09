@@ -1,10 +1,18 @@
+import { Routes, Route, BrowserRouter } from "react-router-dom";
 import "./App.css";
+import { Home } from "./features/home/Home";
+import { Browse } from "./features/browse/Browse";
+import { Watch } from "./features/watch/Watch";
 
 function App() {
   return (
-    <div className="text-center text-blue-500 text-4xl">
-      Welcome to Stream Hub
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/browse" element={<Browse />} />
+        <Route path="/watch" element={<Watch />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
