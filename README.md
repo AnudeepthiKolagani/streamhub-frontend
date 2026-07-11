@@ -1,16 +1,29 @@
-# React + Vite
+# 🎬 StreamHub Frontend
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A production-inspired video streaming platform built with **React**, **Vite**, and **Tailwind CSS v4**.
 
-Currently, two official plugins are available:
+StreamHub is a full-stack application inspired by platforms like **Netflix**, created to showcase modern frontend architecture, scalable backend development, and production-ready engineering practices.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+The project will initially focus on building a **Video-on-Demand (VOD)** platform similar to Netflix. 
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🚀 Current Tech Stack
 
-## Expanding the ESLint configuration
+### Frontend
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React 19
+- Vite
+- JavaScript (ES6+)
+- Tailwind CSS
+- React Router DOM
+
+---
+
+## 📌 Current Status
+
+🚧 Project is currently under active development.
+
+The current focus is on building a responsive and reusable frontend architecture with a clean design system before integrating backend services.
+
+---
